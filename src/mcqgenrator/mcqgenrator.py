@@ -19,7 +19,7 @@ print(key)
 
 llm=ChatOpenAI(openai_api_key=key,model_name="gpt-3.5-turbo",temperature=0.7)
 
-with open(r"C:\Users\Shreedhar S\Desktop\New folder (2)\Response.json","r") as f:
+with open(r"/home/ubuntu/MCQ-Generator/Response.json","r") as f:
     RESPONSE_JSON=json.load(f)
 
 print(RESPONSE_JSON)
